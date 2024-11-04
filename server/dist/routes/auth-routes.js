@@ -16,7 +16,7 @@ export const login = async (req, res) => {
         return res.status(401).json({ message: 'Invalid password' });
     }
     const secretKey = process.env.JWT_SECRET_KEY || '';
-    const token = jwt.sign({ username }, secretKey, { expiresIn: '1h' });
+    const token = jwt.sign({ username }, secretKey, { expiresIn: '5m' });
     return res.json({ token });
 };
 const router = Router();
