@@ -9,7 +9,8 @@
     "start": "npm run build && node dist/server.js --ignore client",
     "dev": "npx nodemon",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "seed": "node dist/seeds/index.js"
+    "seed": "node dist/seeds/index.js",
+    "postinstall": "npm rebuild bcrypt --build-from-source"
   },
   "nodemonConfig": {
     "watch": ["src"],

@@ -16,6 +16,9 @@
     "seed": "cd server && npm run seed",
     "render-build": "npm install && npm run build"
   },
+  "engines": {
+    "node": "22.x"  // Specify the Node.js version
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
