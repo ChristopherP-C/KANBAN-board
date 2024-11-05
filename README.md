@@ -37,6 +37,9 @@
   
   Currently users are set to be logged out after 10 minutes of inactivity
 
+
+  visit the site here: https://kanban-board-wr9s.onrender.com
+
   
 
   ## Credits
