@@ -16,6 +16,9 @@
     "seed": "cd server && npm run seed",
     "render-build": "npm install && npm run build"
   },
+  "engines": {
+    "node": "20.18.0"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
