@@ -32,7 +32,7 @@ a:hover {
 }
 
 body {
-  background: #ECF0F1;
+  background: #704726;
   background-size: cover;
   background-repeat: no-repeat no-repeat;
   background-position: center center;
@@ -54,12 +54,12 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #1a1a1a;
+  background-color: lightgreen;
   cursor: pointer;
   transition: border-color 0.25s;
 }
 button:hover {
-  border-color: #646cff;
+  border-color: black;
 }
 button:focus,
 button:focus-visible {
@@ -147,15 +147,15 @@ tbody tr:nth-child(odd) {
 }
 
 .todo {
-  background-color: #e9cbec;
+  background-color: #f35900;
 }
 
 .inprogress {
-  background-color: #b864c4;
+  background-color: #cea32e;
 }
 
 .done {
-  background-color: #732381;
+  background-color: #124886;
 }
 
 .ticket-card {
@@ -181,9 +181,9 @@ tbody tr:nth-child(odd) {
 
 
 .form {
-  width: 60%;
+  width: 80%;
   height: 80%;
-  background-color: #b864c4;
+  background-color: #ac4e18;
   margin: auto;
   display: flex;
   flex-direction: column;
@@ -216,7 +216,7 @@ tbody tr:nth-child(odd) {
 }
 
 .editBtn {
-  background-color: #f9f9f9;
+  background-color: #d9db34;
   border-radius: 8px;
   border: 1px solid transparent;
   padding: 0.6em 1.2em;
@@ -225,7 +225,7 @@ tbody tr:nth-child(odd) {
 }
 
 .deleteBtn {
-  background-color: #f9f9f9;
+  background-color: #f81717;
   font-weight: 500;
   color: black;
   text-decoration: inherit;
