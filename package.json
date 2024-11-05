@@ -17,7 +17,7 @@
     "render-build": "npm install && npm run build"
   },
   "engines": {
-    "node": "22.x"  // Specify the Node.js version
+    "node": "22.x"
   },
   "keywords": [],
   "author": "",
